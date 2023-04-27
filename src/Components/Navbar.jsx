@@ -23,11 +23,11 @@ const Navbar = () => {
     
    
   
-    <header className="header"> 
-    <FontAwesomeIcon icon={faPhone} /> +91-9836913164 (India) &nbsp; &nbsp;<FontAwesomeIcon icon={faPhone} />    +1-917-730-4660 (U.S.)
+    <header className="header" style={{color:"#746464cf"}}> 
+    <FontAwesomeIcon icon={faPhone} /> +91-9836913164 (India) &nbsp; &nbsp;<FontAwesomeIcon icon={faPhone} />    +1-917-730-4660 (U.S.) 
      </header>
       <nav>
-      <img src={imgg} alt="Logo" width="200" height="40"/> 
+      <img  src={imgg} alt="Logo" style={{"margin-left":"15px"}} width="150" height="50"/> 
         <div>
           <ul id="navbar">
 

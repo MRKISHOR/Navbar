@@ -1,11 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const Cards = () => {
   return (
-    <div className="kk" style={{"margin": "20px" , "padding":"20px"}} >
+    <div className="kk"  >
       
-      <div className="container text-center">
+      <div className="container text-center2"  >
   <div className="row">
     <div className="col">
       <div class="card">

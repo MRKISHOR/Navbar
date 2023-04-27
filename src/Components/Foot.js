@@ -1,8 +1,30 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faUsersLine , faGlobe ,faFaceGrinHearts , faLayerGroup} from '@fortawesome/free-solid-svg-icons'
 
 const Foot = () => {
   return (
 	<div >
+		{/* style={{"width":"100%" , "height":"200px"}} */}
+		<div className='logo-counter'>
+		<h1><FontAwesomeIcon  icon={faUsersLine}/></h1><br></br>
+		&nbsp;&nbsp;&nbsp;
+		<h5 className='tex'>Trusted by People</h5>
+		
+
+  <h1><FontAwesomeIcon  icon={faGlobe}></FontAwesomeIcon> </h1> 
+  &nbsp;&nbsp;&nbsp;
+  <h5 className='tex'> Accepted Globally </h5>
+  &nbsp;&nbsp;&nbsp;
+  <h1><FontAwesomeIcon icon={faFaceGrinHearts} /></h1>
+  &nbsp;&nbsp;&nbsp;
+  <h5 className='tex'>15,865+ Satisfied Client </h5>
+
+  <h1><FontAwesomeIcon icon={faLayerGroup} /> </h1>
+  &nbsp;&nbsp;&nbsp;
+  <h5 className='tex'>Systematic Structured workflow</h5>
+
+  </div>
 	  <footer class="footer" >
   	 <div class="container">
   	 	<div class="row-footer">
