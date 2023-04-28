@@ -11,15 +11,15 @@ const Foot = () => {
 		&nbsp;&nbsp;&nbsp;
 		<h5 className='tex'>Trusted by People</h5>
 		
-
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <h1><FontAwesomeIcon  icon={faGlobe}></FontAwesomeIcon> </h1> 
   &nbsp;&nbsp;&nbsp;
   <h5 className='tex'> Accepted Globally </h5>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <h1><FontAwesomeIcon icon={faFaceGrinHearts} /></h1>
   &nbsp;&nbsp;&nbsp;
   <h5 className='tex'>15,865+ Satisfied Client </h5>
-
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <h1><FontAwesomeIcon icon={faLayerGroup} /> </h1>
   &nbsp;&nbsp;&nbsp;
   <h5 className='tex'>Systematic Structured workflow</h5>
@@ -54,6 +54,19 @@ const Foot = () => {
   	 				<li><a href="#">Terms of Use</a></li>
   	 			</ul>
   	 		</div>
+			   <div class="footer-col"> <h4>   Query </h4>
+
+  <form className='fom' >
+    
+	<input type="text" placeholder="Name"/><br/>
+    <input type="email" placeholder="Email"/><br/>
+    <input type="contact" placeholder="Contact Number"/><br/>
+	<input className='fom-message' type="text" placeholder="Message"/><br/>
+    <input className='fom-but' type="button" value="Submit"/><br/>
+    
+  </form>
+</div> 
+
   	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
@@ -62,10 +75,13 @@ const Foot = () => {
   	 				<a href="#"><i class="fab fa-instagram"></i></a>
   	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
   	 			</div>
+				
   	 		</div>
-  	 	</div>
+			</div>
   	 </div>
+	  
   </footer>
+  
 	</div>
   )
 }
